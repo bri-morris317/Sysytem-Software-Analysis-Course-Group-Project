@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>Book Details</title>
+</head>
+<main>
+    <!--This section should have the button and icons next to eachother-->
+    <input type="text" name="books" id="books" placeholder="Search for a Book">
+    <button>ADD BOOK</button>
+</main>
+
+<body>
+    <form action="">
+        <h2 id="bookfile">Book Details</h2>
+
+        <div>
+            <label for="title">Book Title</label><br>
+            <input type="text" name="title" id="title" placeholder="Enter Book Title">
+        </div>
+
+        <!--there might be a better way to get spacing above and below book title and key features
+        but I used a p tag as a placeholder-->
+        <p>
+        <div>
+            <label for="description">Book Description</label><br>
+            <input type="text" name="description" id="description" placeholder="Add a description about the book">
+        </div>
+        </p>
+
+        <section>
+            <table>
+                <thead>Key Features</thead>
+                <div>
+                    <tr>
+                        <input type="text" name="featureone" id="featureone" placeholder="Add Key Feature 1">
+                        <input type="text" name="featuretwo" id="featuretwo" placeholder="Add Key Feature 2"><br>
+                        <input type="text" name="addreview" id="addreview" placeholder="Add Review">
+                        <input type="text" name="addrating" id="addrating" placeholder="Add Rating"><br>
+                    </tr>
+                </div>
+            </table>
+        </section>
+    </form>
+
+    <form action="">
+        <!--It's hard to read what is on the design doc for this section so I'm not too sure what goes here-->
+        <h2>Book Cover</h2>
+        <button>Upload</button>
+        <input type="text">
+    </form>
+
+    <form action="">
+        <h2>Book Price</h2>
+        <label for="price">Price</label><br>
+        <input type="text" name="price" id="price" placeholder="$">
+    </form>
+
+    <form action="">
+        <h2>Book Category & Attributes</h2>
+        <label for="category">Category</label><br>
+        <input type="text" name="category" id="category" placeholder="Select Book Category">
+
+        <!--same as above-adding p tag as placeholder for spacing-->
+        <p>
+        <section>
+            <table>
+                <label for="genres">Book Genre</label> <br>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="mystery" id="mystery">
+                            <label for="mystery">Mystery</label><br>
+
+                            <input type="checkbox" name="romance" id="romance">
+                            <label for="romance">Romance</label><br>
+
+                            <input type="checkbox" name="comedy" id="comedy">
+                            <label for="comedy">Comedy</label><br>
+
+                            <input type="checkbox" name="fantasy" id="fantasy">
+                            <label for="fantasy">Fantasy</label><br>
+                        </td>
+
+                        <td><input type="checkbox" name="scifi" id="scifi">
+                            <label for="scifi">Science Fiction</label><br>
+
+                            <input type="checkbox" name="thriller" id="thriller">
+                            <label for="thriller">Thriller</label><br>
+
+                            <input type="checkbox" name="horror" id="horror">
+                            <label for="horror">Horror</label><br>
+
+                            <input type="checkbox" name="suspense" id="suspense">
+                            <label for="suspense">Suspense</label><br>
+                        </td>
+
+                        <td>
+                            <input type="checkbox" name="nonfiction" id="nonfiction">
+                            <label for="nonfiction">Non-Fiction</label><br>
+
+                            <input type="checkbox" name="biography" id="biography">
+                            <label for="biography">Biography</label><br>
+
+                            <input type="checkbox" name="entertainment" id="entertainment">
+                            <label for="entertainment">Entertainment</label><br>
+
+                            <input type="checkbox" name="sports" id="sports">
+                            <label for="sports">Sports</label><br>
+                        </td>
+
+                        <td>
+                            <input type="checkbox" name="shortstories" id="shortstories">
+                            <label for="shortstories">Short Stories</label><br>
+
+                            <input type="checkbox" name="poetry" id="poetry">
+                            <label for="poetry">Poetry</label><br>
+
+                            <input type="checkbox" name="anime" id="anime">
+                            <label for="anime">Anime</label><br>
+
+                            <input type="checkbox" name="kids" id="kids">
+                            <label for="kids">Kids</label><br>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+        </p>
+    </form>
+
+
+    <section>
+        <!--this section is above the calendar-->
+
+        <div>
+            <!--not really sure how to code out this section for the preview-->
+            <h3>Book Preview</h3>
+            <img src="" alt="">
+
+            <label for="button">Book Review</label>
+            <button>Rate</button>
+        </div><br>
+    </section>
+
+    <div>
+        <button id="publishreview">PUBLISH REVIEW</button>
+    </div><br>
+
+    <div>
+        <button id="schedulepublish">Schedule Publish</button>
+    </div><br>
+
+    <div>
+        <button id="save">Save Draft</button>
+    </div>
+
+    <!--There is supposed to be a calendar here, but I'm not sure how to make one that is responsive-->
+</body>
+
+
+</html>
