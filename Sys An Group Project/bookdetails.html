@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bookdetails.css">
+    <title>Book Details</title>
+</head>
+
+<body>
+    <div class="book">
+        <div class="class multi_color_border"></div>
+        <div class="class top_nav">
+            <div class="class left">
+                <div class="class logo">
+                    <p><span>Shelvd</span></p>
+                </div>
+                <div class="search_bar">
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="favorite.html">Favorite</a></li>
+                    <li><a href="addbook.html">Add Book</a></li>
+                    <li><a href="browse.html">Browse</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="bottom_nav">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="bookdetails.html">Book Details</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="bookfile">
+        <form action="">
+            <h1 class="details">Book Details</h1>
+
+            <div class="title">
+                <label for="title">Book Title</label>
+                <input type="text" name="title" id="title" placeholder="Enter Book Title">
+            </div>
+
+            <div class="description">
+                <label for="description">Book Description</label>
+                <input type="text" name="description" id="description" placeholder="Add a description about the book">
+            </div>
+
+
+            <section class="features">
+                <table>
+                    <thead>Key Features</thead>
+                    <div>
+                        <tr>
+                            <input type="text" name="featureone" id="featureone" placeholder="Add Key Feature 1">
+                            <input type="text" name="featuretwo" id="featuretwo" placeholder="Add Key Feature 2"><br>
+                            <input type="text" name="addreview" id="addreview" placeholder="Add Review">
+                            <input type="text" name="addrating" id="addrating" placeholder="Add Rating"><br>
+                        </tr>
+                    </div>
+                </table>
+            </section>
+        </form>
+    </div>
+
+    <div class="cover">
+        <form action="">
+            <h2 class="bookcover">Book Cover</h2>
+            <button>Upload</button>
+            <input type="text">
+        </form>
+    </div>
+
+    <div class="price">
+        <form action="">
+            <h2 class="bookprice">Book Price</h2>
+            <label for="price">Price</label>
+            <input type="text" name="price" id="price" placeholder="$">
+        </form>
+    </div>
+
+
+    <div class="category">
+        <form action="">
+            <h2>Book Category & Attributes</h2>
+            <label for="category">Category</label><br>
+            <input type="text" name="category" id="category" placeholder="Select Book Category">
+
+            <div>
+                <table>
+                    <label for="genres">Book Genres</label> <br>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="mystery" id="mystery">
+                                <label for="mystery">Mystery</label><br>
+
+                                <input type="checkbox" name="romance" id="romance">
+                                <label for="romance">Romance</label><br>
+
+                                <input type="checkbox" name="comedy" id="comedy">
+                                <label for="comedy">Comedy</label><br>
+
+                                <input type="checkbox" name="fantasy" id="fantasy">
+                                <label for="fantasy">Fantasy</label><br>
+                            </td>
+
+                            <td><input type="checkbox" name="scifi" id="scifi">
+                                <label for="scifi">Science Fiction</label><br>
+
+                                <input type="checkbox" name="thriller" id="thriller">
+                                <label for="thriller">Thriller</label><br>
+
+                                <input type="checkbox" name="horror" id="horror">
+                                <label for="horror">Horror</label><br>
+
+                                <input type="checkbox" name="suspense" id="suspense">
+                                <label for="suspense">Suspense</label><br>
+                            </td>
+
+                            <td>
+                                <input type="checkbox" name="nonfiction" id="nonfiction">
+                                <label for="nonfiction">Non-Fiction</label><br>
+
+                                <input type="checkbox" name="biography" id="biography">
+                                <label for="biography">Biography</label><br>
+
+                                <input type="checkbox" name="entertainment" id="entertainment">
+                                <label for="entertainment">Entertainment</label><br>
+
+                                <input type="checkbox" name="sports" id="sports">
+                                <label for="sports">Sports</label><br>
+                            </td>
+
+                            <td>
+                                <input type="checkbox" name="shortstories" id="shortstories">
+                                <label for="shortstories">Short Stories</label><br>
+
+                                <input type="checkbox" name="poetry" id="poetry">
+                                <label for="poetry">Poetry</label><br>
+
+                                <input type="checkbox" name="anime" id="anime">
+                                <label for="anime">Anime</label><br>
+
+                                <input type="checkbox" name="kids" id="kids">
+                                <label for="kids">Kids</label><br>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

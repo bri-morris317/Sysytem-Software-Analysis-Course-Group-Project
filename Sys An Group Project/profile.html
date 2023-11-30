@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="profile.css">
+    <title>Profile Test</title>
+</head>
+
+<body>
+    <div class="book">
+        <div class="class multi_color_border"></div>
+        <div class="class top_nav">
+            <div class="class left">
+                <div class="class logo">
+                    <p><span>Shelvd</span></p>
+                </div>
+                <div class="search_bar">
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="favorite.html">Favorite</a></li>
+                    <li><a href="addbook.html">Add Book</a></li>
+                    <li><a href="browse.html">Browse</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="bottom_nav">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="community.html">Book Blog</a></li>
+                <li><a href="bookdetails.html">Book Details</a></li>
+            </ul>
+        </div>
+
+        <div class="login">
+            <h1>Profile Settings</h1>
+            <form method="post">
+                <div class="txt_field">
+                    <input type="text" required>
+                    <span></span>
+                    <label>First Name</label>
+                </div>
+                <div class="txt_field">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Last Name</label>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="country">Country</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="country" name="country">
+                            <option value="mexico">Mexico</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="bio">Bio</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="bio" name="bio" placeholder="Write something.." style="height:300px"></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+</body>
+
+</html>
